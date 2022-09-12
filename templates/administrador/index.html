@@ -1,0 +1,56 @@
+{% extends 'top-nav.html' %}
+{% block content %}
+<!-- Main content -->
+<div class="content">
+   <div class="container">
+      <!-- Small boxes (Stat box) -->
+      <div class="row">
+         <div class="col-lg-3 col-6">
+            <!-- small box -->
+            <div class="small-box bg-info">
+               <div class="inner">
+                  <h3>Usuário App</h3>
+
+                  <p>Cadastrar</p>
+               </div>
+               <div class="icon">
+                  <i class="ion ion-bag"></i>
+               </div>
+               <a href="{% url 'administrador:cadastrar' %}" class="small-box-footer">Seguir <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+         </div>
+         <div class="col-lg-3 col-6">
+            <!-- small box -->
+            <div class="small-box bg-info">
+               <div class="inner">
+                  <h3>Usuário App</h3>
+
+                  <p>Desativar</p>
+               </div>
+               <div class="icon">
+                  <i class="ion ion-bag"></i>
+               </div>
+               <a href="#" class="small-box-footer">Seguir <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+         </div>
+         <div class="col-lg-3 col-6">
+            <!-- small box -->
+            <div class="small-box bg-info">
+               <div class="inner">
+                  <h3>Usuário App</h3>
+
+                  <p>Atualizar</p>
+               </div>
+               <div class="icon">
+                  <i class="ion ion-bag"></i>
+               </div>
+               <a href="#" class="small-box-footer">Seguir <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+         </div>
+      </div>
+      
+   </div><!-- /.container-fluid -->
+</div>
+<!-- /.content -->
+{% endblock content %}
+''
